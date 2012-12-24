@@ -18,7 +18,7 @@
 ;; Boston, MA 02110-1301, USA.
 
 
-;; TODO K G S C J "B"  
+;; TODO K G S C J B
 
 (input-method hi phonetic-soni)
 
@@ -71,7 +71,6 @@ Visit : http://code.google.com/p/soni-hindi-phonetic-keyboard/
   ("n" ?न)
   ("p" ?प)
   ("ph" ?फ)
-  ("P" ?फ)
   ("b" ?ब)
   ("bh" ?भ)
   ("m" ?म)
@@ -99,6 +98,16 @@ Visit : http://code.google.com/p/soni-hindi-phonetic-keyboard/
   ("0" ?०)
 
 
+    (" a" " अ")
+    (" aa" " आ")
+    (" e" " इ")
+    (" ee" " ई")
+    (" u" " उ")
+    (" uu" " ऊ")
+    (" i" " ए")
+    (" ii" " ऐ")
+    (" o" " ओ")
+    (" au" " औ")
 
     ("A" ?अ)
     ("aa" ?आ)
