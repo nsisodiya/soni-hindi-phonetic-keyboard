@@ -1,0 +1,165 @@
+;; hi-soni-phonetic.mim -- Advance Hindi input method for phonetic layout
+;; Copyright (c) 2011-13, ELPA Technologies, Narendra Sisodiya
+;; Copyright (c) 2004-2006 Red Hat, Inc. All rights reserved.
+
+;; This is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU Lesser General Public License
+;; as published by the Free Software Foundation; either version 2.1 of
+;; the License, or (at your option) any later version.
+
+;; This is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; Lesser General Public License for more details.
+
+;; You should have received a copy of the GNU Lesser General Public
+;; License along with this; if not, write to the Free
+;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+
+;; TODO K G S C J "B"  
+
+(input-method hi phonetic-soni)
+
+(description "New Advance Hindi input method for phonetic layout.
+
+Author : Narendra Sisodiya <narendra@narendrasisodiya.com>
+this is Based on OLD hindi phonetic keyboard.
+Visit : http://code.google.com/p/soni-hindi-phonetic-keyboard/
+
+")
+
+(title "क")
+
+(map
+ (trans
+ 
+  ((KP_1) "१")
+  ((KP_2) "२")
+  ((KP_3) "३")
+  ((KP_4) "४")
+  ((KP_5) "५")
+  ((KP_6) "६")
+  ((KP_7) "७")
+  ((KP_8) "८")
+  ((KP_9) "९")
+  ((KP_0) "०")
+  ((KP_Decimal) ".")
+  ((KP_Divide) "/")
+  ((KP_Multiply) "*")
+  ((KP_Add) "+")
+  ((KP_Subtract) "-") 
+ 
+  ("k" ?क)
+  ("kh" ?ख)
+  ("g" ?ग)
+  ("gh" ?घ)
+  ("c" ?च)
+  ("ch" ?छ)
+  ("j" ?ज)
+  ("jh" ?झ)
+  ("T" ?ट)
+  ("Th" ?ठ)
+  ("D" ?ड)
+  ("Dh" ?ढ)
+  ("N" ?ण)
+  ("t" ?त)
+  ("th" ?थ)
+  ("d" ?द)
+  ("dh" ?ध)
+  ("n" ?न)
+  ("p" ?प)
+  ("ph" ?फ)
+  ("P" ?फ)
+  ("b" ?ब)
+  ("bh" ?भ)
+  ("m" ?म)
+  ("y" ?य)
+  ("r" ?र)
+  ("l" ?ल)
+  ("L" ?ळ)
+  ("v" ?व)
+  ("h" ?ह)
+  ("H" ?ह)
+  ("s" ?स)
+  ("sh" ?श)
+  ("Sh" ?ष)
+
+
+  ("1" ?१)
+  ("2" ?२)
+  ("3" ?३)
+  ("4" ?४)
+  ("5" ?५)
+  ("6" ?६)
+  ("7" ?७)
+  ("8" ?८)
+  ("9" ?९)
+  ("0" ?०)
+
+
+
+    ("A" ?अ)
+    ("aa" ?आ)
+    ("E" ?इ)
+    ("EE" ?ई)
+    ("U" ?उ)
+    ("UU" ?ऊ)
+    ("I" ?ए)
+    ("II" ?ऐ)
+    ("O" ?ओ)
+    ("Au" ?औ)
+
+    ("q" ?ऍ)
+    ("qq" ?ऎ)
+    ("qqq" ?ऑ)
+    ("qqqq" ?ऒ)
+ 
+    ("w" ?ॅ)
+    ("ww" ?ॆ)
+    ("www" ?ॉ)
+    ("wwww" ?ॊ)
+
+    ("KSH" "क्ष")
+    ("TR" "त्र")
+    ("GY" "ज्ञ")
+    ("OM" ?ॐ)
+
+    ("z" "क्ष")
+    ("zz" "त्र")
+    ("zzz" "ज्ञ")
+    ("zzzz" "श्र")
+    ("zzzzz" ?ऋ)
+    ("zzzzzz" ?ॠ)
+
+    ("x" ?ङ)
+    ("xx" ?ञ)
+
+
+
+    ("a" ?ा)
+    ("i" ?ि)
+    ("ii" ?ी)
+    ("u" ?ु)
+    ("oo" ?ू)
+    ("e" ?े)
+    ("ai" ?ै)
+    ("o" ?ो)
+    ("au" ?ौ)
+    ("*" ?ं)
+    (":" ?ः)
+    ("f" ?्‌)
+    ("\\" ?्‌)
+    ("/" "्र")
+    ("^" "र्")
+    ("<" ?ृ)
+    ("<<" ?ॄ)
+    ("." ?़)
+    ("|" ?।)
+    ("@" ?ँ)
+  ))
+
+(state
+  (init
+    (trans)))
