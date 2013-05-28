@@ -134,6 +134,9 @@ Visit : http://code.google.com/p/soni-hindi-phonetic-keyboard/
     ("TR" "त्र")
     ("GY" "ज्ञ")
     ("OM" ?ॐ)
+    ("RS" ?₹)
+    ("Q" ?ऽ)
+    
 
     ("z" "क्ष")
     ("zz" "त्र")
